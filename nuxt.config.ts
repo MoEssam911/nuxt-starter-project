@@ -15,4 +15,6 @@ export default defineNuxtConfig({
     preference: "dark", // Default theme preference (light/dark/system)
     fallback: "dark", // Fallback theme if system theme cannot be detected
   },
+
+  css: ["~/assets/css/app.css"],
 });
